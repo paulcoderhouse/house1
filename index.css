@@ -1,0 +1,358 @@
+/* *{margin: 0; padding: 0; box-sizing: border-box;} */
+
+/* .heading{
+  color: #fa9191;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px  #ffe9c5;
+  margin: 50px 0;
+  font-family: 'Josefin Sans', sans-serif;
+} */
+/* .img_div {
+  display:flex;
+  justify-content: center;
+}
+.img_div img{
+    width:250px;
+    height: 300px;  
+} */
+
+/* body {
+  background-color: #b4f2e1;
+  font-family: "josefin sans" sans-serif;
+}
+div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+/* h1{ */
+  /* width: 500px;
+  height: 80px; */
+   /* border-radius: 20px; 
+  background-color:#ffe9c5;
+  padding: 20px 20px;
+  color:#fa9191; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+/* }
+span{
+  color: #eb6383;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "muli", sans-serif;
+}
+
+.navbar{
+  background-color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight:bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3698db !important;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #3698db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size:16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  color: #3498db;
+  border: 2px solid #3698db;
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background:#3498db;
+  color:#fff;
+}
+.header-img {
+  text-align: right;
+}
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform:translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform:translateY(-10px);
+  }
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img {
+    width: 70%;
+  }
+} */
+
+*{
+  margin:0; padding:0;
+}
+.app5{
+  width: 100%;
+  min-height: 100vh;
+  padding:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(211, 123, 223, 0.897);
+}
+html {
+  font-size: 62.5%;
+}
+.structure_1{
+  width: 53rem;
+  height:31rem;
+  padding: 3rem;
+  box-sizing: border-box;
+  border: 0.3rem solid whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.5rem;
+  background: #ffff;
+  box-shadow: 0 2rem 2rem 1rem rgba(219, 147, 223, 0.274);
+  margin-left: -70rem;
+  margin-top: -0.8rem;
+  transform: translate(0.25rem, 0.5rem);
+}
+.details{
+  display:flex;
+  align-items: center;
+  width: 100%;
+}
+.left img{
+  width: 26rem;
+  height: 24rem;
+  border-radius: 10%;
+  object-fit: cover;
+  overflow: hidden; 
+  box-shadow: 0.1rem 0.8rem 0.8rem 0.2rem rgba(0,0,0,0.2); 
+} 
+ .right_side {
+   padding: 3rem;
+   margin-left: 2rem;
+}
+.heading {
+ margin-bottom: 2.5rem;
+ width:100%;
+ margin-right: 3rem;
+}
+ .heading h4{
+ font-size: 1.5rem;
+ font-weight: 100;
+ margin-top: -3rem;
+}
+.heading h2 {
+  font-size: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+h3{
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-top: -1rem;
+}
+h5{
+  font-weight: 100;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.bottom_bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -1rem;
+}
+.heart_btn, .share_btn, .addlist_btn {
+  height: 3.2rem;
+  width: 3.2rem;
+  font-size: 2.3rem;
+  z-index: 20;
+  margin: 0 0.2rem 0 -0.8rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: #ffff;
+  box-shadow: 0.1rem 0.8rem 0.8rem 0.2rem rgba(0,0,0,0.2);
+  cursor:pointer;
+}
+.controls {
+  width: 60rem;
+  height: 23rem;
+  border-radius: 0.8rem 2.5rem 2.5rem 0.8rem;
+  background: #ffff;
+  border: 0.3rem solid whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: 0 2rem 2rem 1rem rgba(219, 147, 223, 0.274);
+  margin-right: -60rem;
+  margin-left: -0.8rem;
+}
+.music_controls{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -12rem;
+  margin-left: 3rem;
+}
+.play_pause {
+  margin: 0 2.5rem 0 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play_btn {
+  font-size: 2.3rem;
+  color: #ffff;
+  height: 4.4rem;
+  width: 4.4rem;
+  background: purple;
+  box-shadow: 0.1rem 0.8rem 0.8rem 0.2rem rgba(0,0,0,0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skip_btn {
+  font-size: 2.3rem;
+  color:#ffff;
+  margin: 0 2rem;
+  height: 4rem;
+  width: 4rem;
+  background: purple;
+  box-shadow: 0.1rem 0.8rem 0.8rem 0.2rem rgba(0,0,0,0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.control_btn{
+  font-size: 1.8rem;
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+.progress-area {
+  height: 1rem;
+  width: 100%;
+  background: lightgray;
+  border-radius: 5rem;
+  cursor: pointer;
+  margin-right: 2rem;
+  margin-bottom: -5rem;
+  margin-left: -51rem;
+}
+.progress-bar {
+  height: 1rem;
+  width: 0%;
+  position: relative;
+  border-radius: inherit;
+  background: purple;
+}
+.progress-bar::before {
+  content:"";
+  position: absolute;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: inherit;
+   top:50%;
+   background: #000;
+   background: purple;
+   transform: translateY(-50%);
+   opacity:1;
+   transition : opacity 0.2s ease;
+}
+.progress-area:hover .progress-bar::before {
+  opacity: 1;
+}
+.timer {
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.timer span {
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: rgba(197, 142, 223, 0.986);
+}
